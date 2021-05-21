@@ -56,25 +56,49 @@ function my_keydown(e)
     console.log(keyPressed);
     if(keyPressed == '38')
     {
-        up();
-        console.log("up");
+        Car1_up();
+        console.log("up arrow key");
     }
 
     if(keyPressed == '40')
     {
-        down();
-        console.log("down");
+        Car1_down();
+        console.log("down arrow key");
     }
 
     if(keyPressed == '37')
     {
-        left();
-        console.log("left");
+        Car1_left();
+        console.log("left arrow key");
     }
 
     if(keyPressed == '39')
     {
-        right();
-        console.log("right")
+        Car1_right();
+        console.log("right arrow key")
+    }
+
+    if(keyPressed == '87')
+    {
+        Car2_up();
+        console.log("key w");
+    }
+
+    if(keyPressed == '83')
+    {
+        Car2_down();
+        console.log("key s");
+    }
+
+    if(keyPressed == '65')
+    {
+        Car2_left();
+        console.log("key a");
+    }
+
+    if(keyPressed == '68')
+    {
+        Car2_right();
+        console.log("key d")
     }
 }
